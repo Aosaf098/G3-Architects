@@ -38,7 +38,7 @@
 }
 .navbar-list{
     list-style: none;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .navbar-list a{
     font-size: 1.1rem;
@@ -89,7 +89,23 @@
     .navbar{
         flex-direction: column;
     }
+    .navbar h3{
+        font-size: 2.5rem;
+    }
+    .navbar-links{
+        gap: 20px;
+    }
+    .navbar-list{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .banner-content h3{
+        font-size: 3.5rem;
+    }
     .banner-img-container{
+        padding: 10px 14px;
+    }
+    .banner-img-container img{
         width: 100%;
         border-radius: 0px;
     }
