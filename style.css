@@ -85,6 +85,8 @@
     max-width: 100%;
 }
 
+/* Small Devices Media Query */
+
 @media screen and (max-width: 576px) {
     .navbar{
         flex-direction: column;
@@ -110,4 +112,16 @@
         border-radius: 0px;
     }
     
+}
+
+/* Medium Devices Media Query */
+
+@media screen and (min-width: 576.1px) and (max-width: 992px) {
+    .banner-img-container{
+        padding: 10px 14px;
+    }
+    .banner-img-container img{
+        width: 100%;
+        border-radius: 0px;
+    }
 }
