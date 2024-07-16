@@ -202,4 +202,8 @@
         width: 100%;
         border-radius: 0px;
     }
+    .quick-list{
+        flex-direction: column;
+        margin-left: 20px;
+    }
 }
