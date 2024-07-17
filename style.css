@@ -235,6 +235,7 @@
     justify-content: center;
     align-items: center;
     gap: 200px;
+    margin-bottom: 20px;
 }
 .sqr-card{
     width: 150px;
@@ -258,6 +259,51 @@
     font-size: 1rem;
     font-weight: 600;
     line-height: 23px;
+}
+
+/* Sponsors Styles Here */
+
+.sponsors{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: 3px solid slateblue; */
+    margin-top: 60px;
+}
+.sponsors-title{
+    color: rgb(19, 19, 19);
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+}
+.sponsors-subtitle{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+.sponsors-info{
+    width: 80%;
+    /* border: 3px solid black; */
+}
+.sponsors-company{
+    width: 80%;
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.sponsors-company img{
+    /* border: 2px solid brown; */
+    filter: grayscale(100%);
 }
 /* Small Devices Media Query */
 
@@ -367,9 +413,22 @@
     }
     .facts-sqr-card{
         gap: 20px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors-company{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 0px;
+        gap: 50px;
+        /* border: 2px solid brown; */
+    }
+    .sponsors-company img{
+        width: 100%;
+        /* border: 2px solid steelblue; */
+    }
+    .sponsors-company img:nth-child(5){
+        margin-left: 90px;
     }
     
     
