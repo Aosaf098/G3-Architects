@@ -270,6 +270,7 @@
     gap: 40px;
     /* border: 3px solid slateblue; */
     margin-top: 60px;
+    margin-bottom: 40px;
 }
 .sponsors-title{
     color: rgb(19, 19, 19);
@@ -305,6 +306,26 @@
     /* border: 2px solid brown; */
     filter: grayscale(100%);
 }
+
+/* Footer Styles Here */
+
+.footer-container{
+    width: 80%;
+    height: 60px;
+    margin: 20px auto;
+    /* border: 3px solid brown; */
+    border-radius: 4px;
+    background: rgb(255, 244, 231);
+    justify-content: center;
+    align-items: center;
+}
+.footer-subtitle{
+    color: rgb(66, 66, 66);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
 /* Small Devices Media Query */
 
 @media screen and (max-width: 576px) {
@@ -430,8 +451,10 @@
     .sponsors-company img:nth-child(5){
         margin-left: 90px;
     }
-    
-    
+    .footer-subtitle{
+        text-align: center;
+        font-size: 0.9rem;
+    }
 }
 
 /* Medium Devices Media Query */
